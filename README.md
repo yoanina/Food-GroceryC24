@@ -1,46 +1,26 @@
-<h1>E-commerce Store</h1>
-This is a sample e-commerce store built with React and Redux, using the react-router-dom library for client-side routing and axios for data fetching. It also includes Firebase authentication for user login and registration.
+<h1>Food & Grocery C24-TECSUP</h1>
 
-<h2>Features</h2>
-Home page displaying a banner with image slides and product list fetched from an external API
-Product detail page showing information about a specific product
-Cart page displaying the list of items added to the cart
-Login page for user authentication
-Persistent user authentication using Firebase
-Fully responsive design, optimized for desktop and mobile devices
-Getting started
-To get started with this project, you can clone the repository and install the dependencies by running:
+Este es un ejemplo de e-commerce muy basico, se hizo con react y redux, se uso la libreria react-router-dom  para el laod del cleinte y tambien se implemento axios para poder obetner datos de las apis externas, se uso tambien firebase para autenticacio y login del usuario.
 
-<h3>Copy code</h3>
+<h3>Empezando</h3>
 npm install
-After that, you can start the development server by running:
+despues de esto, podremos crrer el servidor.
 
 <h3>sql</h3>
-Copy code
+usa:
 npm start
-The app should be available at http://localhost:3000.
+la app deberia estar disponible en http://localhost:3000.
 
-To build the app for production, you can run:
-
-<h3>arduino</h3>
-Copy code
+Para habilitar la aplicacion en modo de producion debes correr:
 npm run build
-This will create an optimized build in the build directory.
+esto creara un ambiente optimizado para el area de desarrollo 
 
-<h3>Dependencies</h3>
-This project uses the following dependencies:
+<h3>Dependencias</h3>
+Hemos usado:
 
-react and react-dom for building the user interface
-react-router-dom for client-side routing
-axios for data fetching
-redux and react-redux for state management
-@reduxjs/toolkit for simplified Redux setup
-firebase for user authentication
-
-<h3>Credits</h3>
-This project was built by [Your Name] as a sample e-commerce store. The product data is fetched from an external API and the images are taken from Unsplash.
-
-
-
-
-
+react and react-dom para poder construir interfaces de usuario
+react-router-dom para rutear el lado cliente
+axios para obetner daos de la api
+redux and react-redux para manejo de estados
+@reduxjs/toolkit para un ambiente de desarrollo mas simple y sencillo
+firebase para la autenticacion de usuario
